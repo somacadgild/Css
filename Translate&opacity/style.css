@@ -1,0 +1,10 @@
+.image:hover {
+-webkit-transform: translate(20px,-50px);
+transform: translate(20px,-50px);
+opacity: 0.4;
+}
+.image {
+opacity: 1;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}

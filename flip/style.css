@@ -1,0 +1,11 @@
+.container:hover .image{
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}
+.container .image, .container:hover .image {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+/* Note: You could, of course, target the image class directly with "image:hover". However, using the hover on the parent container is preferred here, because it results in a smoother flip animation in all modern browsers. Make sure the container has the same width and height as the image. */

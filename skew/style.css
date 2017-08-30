@@ -1,0 +1,8 @@
+.image:hover {
+-webkit-transform: skew(0deg,20deg);
+transform: skew(0deg,20deg);
+}
+.image {
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
